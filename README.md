@@ -1,11 +1,13 @@
 # FileSearch
 
-Generates from an array of directories an array of the files they contain.
-Support recursive search.
+Generates from an array of directories an array of the files they contain.  
+Support recursive search.  
 
 ## Installation
 
-`gem install file_search`
+```
+gem install file_search
+```
 
 ## Usage
 
@@ -21,12 +23,13 @@ p ['~/Downloads'].file_search(recursive: false)
 
 ## Test
 
-`ruby test/file_search_test.rb`
+```
+ruby test/file_search_test.rb
+```
 
 ## Credit
-Copyright (C) Coro365
-Licensed under the [MIT](LICENSE) license.
-
+Copyright (C) Coro365  
+Licensed under the [MIT](LICENSE) license.  
 
 ## Code of Conduct
 
